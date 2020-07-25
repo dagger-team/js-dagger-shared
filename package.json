@@ -1,5 +1,5 @@
 {
-  "name": "js-dagger-shared",
+  "name": "@dagger-team/js-dagger-shared",
   "version": "0.0.1",
   "description": "Shared resources for dagger public & private packages",
   "main": "dist/index.js",
@@ -12,7 +12,6 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "prepublish": "tsc",
     "build": "tsc"
   },
   "devDependencies": {
