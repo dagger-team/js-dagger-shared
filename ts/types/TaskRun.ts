@@ -4,16 +4,21 @@ class TaskRun {
     task_name: string;
     id: string;
 
-    input: object;
-    output: object;
-    metadata: object;
+    input = {};
+    output = {};
+    metadata = {};
 
     // TODO: These are enums
-    language: string;
-    system: string;
+    language = 'javascript';
+    system = 'unknown';
 
-    created_at: Date;
-    updated_at: Date;
+    created_at?: Date;
+    updated_at?: Date;
+
+    constructor(task_name: string, id: string) {
+        this.task_name = task_name;
+        this.id = id;
+    }
 }
 
 export default TaskRun;
