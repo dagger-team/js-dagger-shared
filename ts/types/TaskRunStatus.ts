@@ -1,14 +1,7 @@
-export enum TaskRunStatusTypes {
-    queued = 'queued',
-    started = 'started',
-    running = 'running',
-    succeeded = 'succeeded',
-    failed = 'failed',
-    timed_out = 'timed_out'
-}
+export type TaskRunStatusType = 'queued' | 'started' | 'running' | 'succeeded' | 'failed' | 'timed_out'
 
 export class TaskRunStatus {
-    status: TaskRunStatusTypes;
+    status: TaskRunStatusType;
     status_datetime: Date;
 }
 
