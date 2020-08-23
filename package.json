@@ -1,6 +1,6 @@
 {
   "name": "@dagger-team/js-dagger-shared",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared resources for dagger public & private packages",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
